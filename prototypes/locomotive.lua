@@ -1,3 +1,5 @@
+require("lib.functions")
+
 data:extend(
 	{
 		--
@@ -62,8 +64,9 @@ data:extend(
 				{type = "physical", decrease = 15, percent = 30},
 				{type = "impact", decrease = 50, percent = 60}
 			},
-			burner = {
-				fuel_category = "yr_diesel",
+			energy_source = {
+				type = "burner",
+				fuel_categories = {"yr_diesel"},
 				effectivity = 1,
 				fuel_inventory_size = 2,
 				smoke = {
@@ -129,25 +132,13 @@ data:extend(
 			},
 			},
 			minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
 			},
 			selected_minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
-				flags = {"icon"},
-				size = {20, 40},
-				scale = 0.5
-			},
-			minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
-				flags = {"icon"},
-				size = {20, 40},
-				scale = 0.5
-			},
-			selected_minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
@@ -189,7 +180,7 @@ data:extend(
 					}
 				}
 			},
-			drive_over_tie_trigger = drive_over_tie(),
+			drive_over_tie_trigger = yir_drive_over_tie(),
 			tie_distance = 50,
 			vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
 			working_sound = {
@@ -264,8 +255,9 @@ data:extend(
 				{type = "physical", decrease = 15, percent = 30},
 				{type = "impact", decrease = 50, percent = 60}
 			},
-			burner = {
-				fuel_category = "yr_diesel",
+			energy_source = {
+				type = "burner",
+				fuel_categories = {"yr_diesel"},
 				effectivity = 1,
 				fuel_inventory_size = 2,
 				smoke = {
@@ -331,13 +323,13 @@ data:extend(
 			},
 			},
 			minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
 			},
 			selected_minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
@@ -379,7 +371,7 @@ data:extend(
 					}
 				}
 			},
-			drive_over_tie_trigger = drive_over_tie(),
+			drive_over_tie_trigger = yir_drive_over_tie(),
 			tie_distance = 50,
 			vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
 			working_sound = {
@@ -454,8 +446,9 @@ data:extend(
 				{type = "physical", decrease = 15, percent = 30},
 				{type = "impact", decrease = 50, percent = 60}
 			},
-			burner = {
-				fuel_category = "yr_diesel",
+			energy_source = {
+				type = "burner",
+				fuel_categories = {"yr_diesel"},
 				effectivity = 1,
 				fuel_inventory_size = 2,
 				smoke = {
@@ -521,13 +514,13 @@ data:extend(
 			},
 			},
 			minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
 			},
 			selected_minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
@@ -569,7 +562,7 @@ data:extend(
 					}
 				}
 			},
-			drive_over_tie_trigger = drive_over_tie(),
+			drive_over_tie_trigger = yir_drive_over_tie(),
 			tie_distance = 50,
 			vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
 			working_sound = {
@@ -644,8 +637,9 @@ data:extend(
 				{type = "physical", decrease = 15, percent = 30},
 				{type = "impact", decrease = 50, percent = 60}
 			},
-			burner = {
-				fuel_category = "yr_diesel",
+			energy_source = {
+				type = "burner",
+				fuel_categories = {"yr_diesel"},
 				effectivity = 1,
 				fuel_inventory_size = 3,
 				smoke = {
@@ -711,13 +705,13 @@ data:extend(
 			},
 			},
 			minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
 			},
 			selected_minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
@@ -759,7 +753,7 @@ data:extend(
 					}
 				}
 			},
-			drive_over_tie_trigger = drive_over_tie(),
+			drive_over_tie_trigger = yir_drive_over_tie(),
 			tie_distance = 50,
 			vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
 			working_sound = {
@@ -836,8 +830,9 @@ data:extend(
 				{type = "physical", decrease = 15, percent = 30},
 				{type = "impact", decrease = 50, percent = 60}
 			},
-			burner = {
-				fuel_category = "yr_diesel",
+			energy_source = {
+				type = "burner",
+				fuel_categories = {"yr_diesel"},
 				effectivity = 1.25,
 				fuel_inventory_size = 2,
 				smoke = {
@@ -903,13 +898,13 @@ data:extend(
 			},
 			},
 			minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
 			},
 			selected_minimap_representation = {
-				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+				filename = "__base__/graphics/entity/locomotive/minimap-representation/locomotive-selected-minimap-representation.png",
 				flags = {"icon"},
 				size = {20, 40},
 				scale = 0.5
@@ -951,7 +946,7 @@ data:extend(
 					}
 				}
 			},
-			drive_over_tie_trigger = drive_over_tie(),
+			drive_over_tie_trigger = yir_drive_over_tie(),
 			tie_distance = 50,
 			vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
 			working_sound = {
