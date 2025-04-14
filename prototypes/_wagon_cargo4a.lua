@@ -4,9 +4,9 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "yir_4a_container_crrecipe",
+		name = "yir_4a_container_cr",
 		category = "yir_rc_wsw", -- Workshop for Locomotives
-		enabled = "true",
+		enabled = true,
 		energy_required = 3.00,
 		ingredients = {			
 			{ type = "item", name = "yir_frame_waggon" , amount = 1.0, },			
@@ -17,7 +17,8 @@ data:extend(
 		},
 		results = {
 			{ type = "item", name = "yir_4a_container_cr", amount = 1, },
-		},		
+		},
+		main_product = "yir_4a_container_cr",
 		order = "cr3", group = "yuoki_railway", subgroup = "yir_americans",
 	},	
 
@@ -30,9 +31,9 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "yir_4a_clean_cr_recipe",
+		name = "yir_4a_clean_cr",
 		category = "yir_rc_wsw", -- Workshop for Locomotives
-		enabled = "true",
+		enabled = true,
 		energy_required = 3.00,
 		ingredients = {			
 			{ type = "item", name = "yir_frame_waggon" , amount = 1.0, },			
@@ -43,7 +44,8 @@ data:extend(
 		},
 		results = {
 			{ type = "item", name = "yir_4a_clean_cr", amount = 1, },
-		},		
+		},
+		main_product = "yir_4a_clean_cr",
 		order = "cr4", group = "yuoki_railway", subgroup = "yir_americans",
 	},	
 
@@ -87,6 +89,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -96,6 +99,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+			},
 		},
 		minimap_representation = {
 			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
@@ -163,6 +167,7 @@ data:extend(
 		--stand_by_light = rolling_stock_stand_by_light(),
 		pictures =
 		{
+			rotated = {
 			priority = "very-low",
 			width = 256,
 			height = 256,
@@ -172,6 +177,7 @@ data:extend(
 			line_length = 8,
 			lines_per_file = 8,
 			shift = {0.42, -1.125}
+			},
 		},
 		minimap_representation = {
 			filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",

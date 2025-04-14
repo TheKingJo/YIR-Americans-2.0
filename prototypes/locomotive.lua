@@ -3,9 +3,9 @@ data:extend(
 		--
 		{
 			type = "recipe",
-			name = "yir_emdf7a_mn_recipe",
+			name = "yir_emdf7a_mn",
 			category = "yir_rc_wsl", -- Workshop for Locomotives
-			enabled = "true",
+			enabled = true,
 			energy_required = 5.00,
 			ingredients = {
 				{type = "item", name = "yir_frame_loco_diesel", amount = 1.0},
@@ -15,6 +15,7 @@ data:extend(
 			results = {
 				{type = "item", name = "yir_emdf7a_mn", amount = 1}
 			},
+			main_product = "yir_emdf7a_mn",
 			order = "lsw1",
 			group = "yuoki_railway",
 			subgroup = "yir_americans"
@@ -113,6 +114,7 @@ data:extend(
 			--back_light = rolling_stock_back_light(),
 			--stand_by_light = rolling_stock_stand_by_light(),
 			pictures = {
+				rotated = {
 				priority = "very-low",
 				width = 256,
 				height = 256,
@@ -124,6 +126,7 @@ data:extend(
 				line_length = 8,
 				lines_per_file = 8,
 				shift = {0.20, -1.125}
+			},
 			},
 			minimap_representation = {
 				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
@@ -202,9 +205,9 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yir_emdf7b_mn_recipe",
+			name = "yir_emdf7b_mn",
 			category = "yir_rc_wsl", -- Workshop for Locomotives
-			enabled = "true",
+			enabled = true,
 			energy_required = 5.00,
 			ingredients = {
 				{type = "item", name = "yir_frame_loco_diesel", amount = 1.0},
@@ -214,6 +217,7 @@ data:extend(
 			results = {
 				{type = "item", name = "yir_emdf7b_mn", amount = 1}
 			},
+			main_product = "yir_emdf7b_mn",
 			order = "lsw1",
 			group = "yuoki_railway",
 			subgroup = "yir_americans"
@@ -312,6 +316,7 @@ data:extend(
 			--back_light = rolling_stock_back_light(),
 			--stand_by_light = rolling_stock_stand_by_light(),
 			pictures = {
+				rotated = {
 				priority = "very-low",
 				width = 256,
 				height = 256,
@@ -323,6 +328,7 @@ data:extend(
 				line_length = 8,
 				lines_per_file = 8,
 				shift = {0.42, -1.125}
+			},
 			},
 			minimap_representation = {
 				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
@@ -389,9 +395,9 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yir_emdf7a_cr_recipe",
+			name = "yir_emdf7a_cr",
 			category = "yir_rc_wsl", -- Workshop for Locomotives
-			enabled = "true",
+			enabled = true,
 			energy_required = 5.00,
 			ingredients = {
 				{type = "item", name = "yir_frame_loco_diesel", amount = 1.0},
@@ -401,6 +407,7 @@ data:extend(
 			results = {
 				{type = "item", name = "yir_emdf7a_cr", amount = 1}
 			},
+			main_product = "yir_emdf7a_cr",
 			order = "lsw1",
 			group = "yuoki_railway",
 			subgroup = "yir_americans"
@@ -499,6 +506,7 @@ data:extend(
 			--back_light = rolling_stock_back_light(),
 			--stand_by_light = rolling_stock_stand_by_light(),
 			pictures = {
+				rotated = {
 				priority = "very-low",
 				width = 256,
 				height = 256,
@@ -510,6 +518,7 @@ data:extend(
 				line_length = 8,
 				lines_per_file = 8,
 				shift = {0.2, -1.125}
+			},
 			},
 			minimap_representation = {
 				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
@@ -576,9 +585,9 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yir_emdf7b_cr_recipe",
+			name = "yir_emdf7b_cr",
 			category = "yir_rc_wsl", -- Workshop for Locomotives
-			enabled = "true",
+			enabled = true,
 			energy_required = 5.00,
 			ingredients = {
 				{type = "item", name = "yir_frame_loco_diesel", amount = 1.0},
@@ -588,6 +597,7 @@ data:extend(
 			results = {
 				{type = "item", name = "yir_emdf7b_cr", amount = 1}
 			},
+			main_product = "yir_emdf7b_cr",
 			order = "lsw1",
 			group = "yuoki_railway",
 			subgroup = "yir_americans"
@@ -686,6 +696,7 @@ data:extend(
 			--back_light = rolling_stock_back_light(),
 			--stand_by_light = rolling_stock_stand_by_light(),
 			pictures = {
+				rotated = {
 				priority = "very-low",
 				width = 256,
 				height = 256,
@@ -697,6 +708,7 @@ data:extend(
 				line_length = 8,
 				lines_per_file = 8,
 				shift = {0.4, -1.125}
+			},
 			},
 			minimap_representation = {
 				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
@@ -763,9 +775,9 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yir_es44cr_recipe",
+			name = "yir_es44cr",
 			category = "yir_rc_wsl", -- Workshop for Locomotives
-			enabled = "true",
+			enabled = true,
 			energy_required = 5.00,
 			ingredients = {
 				{type = "item", name = "yir_frame_loco_diesel", amount = 2.0},
@@ -777,6 +789,7 @@ data:extend(
 			results = {
 				{type = "item", name = "yir_es44cr", amount = 1}
 			},
+			main_product = "yir_es44cr",
 			order = "cr1",
 			group = "yuoki_railway",
 			subgroup = "yir_americans"
@@ -875,6 +888,7 @@ data:extend(
 			--back_light = rolling_stock_back_light(),
 			--stand_by_light = rolling_stock_stand_by_light(),
 			pictures = {
+				rotated = {
 				priority = "very-low",
 				width = 256,
 				height = 256,
@@ -886,6 +900,7 @@ data:extend(
 				line_length = 8,
 				lines_per_file = 8,
 				shift = {0.4, -1.125}
+			},
 			},
 			minimap_representation = {
 				filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
