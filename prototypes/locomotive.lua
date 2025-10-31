@@ -80,21 +80,6 @@ data:extend({
 				intensity = 0.8
 			}
 		},
-		pictures = {
-			rotated = {
-			priority = "very-low",
-			width = 256,
-			height = 256,
-			direction_count = 128,
-			filenames = {
-				"__z_yira_american__/graphics/emd_f7a_mn_sheet-0.png",
-				"__z_yira_american__/graphics/emd_f7a_mn_sheet-1.png"
-			},
-			line_length = 8,
-			lines_per_file = 8,
-			shift = {0.20, -1.125}
-		},
-		},
 		tie_distance = 50,
 		open_sound = {filename = "__base__/sound/car-door-open.ogg", volume = 0.7},
 		close_sound = {filename = "__base__/sound/car-door-close.ogg", volume = 0.7},
@@ -180,21 +165,6 @@ data:extend({
 				size = 2,
 				intensity = 0.8
 			}
-		},
-		pictures = {
-			rotated = {
-			priority = "very-low",
-			width = 256,
-			height = 256,
-			direction_count = 128,
-			filenames = {
-				"__z_yira_american__/graphics/emd_f7b_mn_sheet-0.png",
-				"__z_yira_american__/graphics/emd_f7b_mn_sheet-1.png"
-			},
-			line_length = 8,
-			lines_per_file = 8,
-			shift = {0.42, -1.125}
-		},
 		},
 		tie_distance = 50,
 		vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
@@ -290,21 +260,6 @@ data:extend({
 				intensity = 0.8
 			}
 		},
-		pictures = {
-			rotated = {
-			priority = "very-low",
-			width = 256,
-			height = 256,
-			direction_count = 128,
-			filenames = {
-				"__z_yira_american__/graphics/emd_f7a_cr_sheet-0.png",
-				"__z_yira_american__/graphics/emd_f7a_cr_sheet-1.png"
-			},
-			line_length = 8,
-			lines_per_file = 8,
-			shift = {0.2, -1.125}
-		},
-		},
 		tie_distance = 50,
 		open_sound = {filename = "__base__/sound/car-door-open.ogg", volume = 0.7},
 		close_sound = {filename = "__base__/sound/car-door-close.ogg", volume = 0.7},
@@ -391,21 +346,6 @@ data:extend({
 				intensity = 0.8
 			}
 		},
-		pictures = {
-			rotated = {
-			priority = "very-low",
-			width = 256,
-			height = 256,
-			direction_count = 128,
-			filenames = {
-				"__z_yira_american__/graphics/emd_f7b_cr_sheet-0.png",
-				"__z_yira_american__/graphics/emd_f7b_cr_sheet-1.png"
-			},
-			line_length = 8,
-			lines_per_file = 8,
-			shift = {0.4, -1.125}
-		},
-		},
 		tie_distance = 50,
 		open_sound = {filename = "__base__/sound/car-door-open.ogg", volume = 0.7},
 		close_sound = {filename = "__base__/sound/car-door-close.ogg", volume = 0.7},
@@ -491,23 +431,6 @@ data:extend({
 				size = 2,
 				intensity = 0.8
 			}
-		},
-		pictures =
-		{
-			rotated =
-			{
-				priority = "very-low",
-				width = 256,
-				height = 256,
-				direction_count = 128,
-				filenames = {
-					"__z_yira_american__/graphics/ES44AC_sheet-0.png",
-					"__z_yira_american__/graphics/ES44AC_sheet-1.png"
-				},
-				line_length = 8,
-				lines_per_file = 8,
-				shift = {0.4, -1.125}
-			},
 		},
 		tie_distance = 50,
 		open_sound = {filename = "__base__/sound/car-door-open.ogg", volume = 0.7},

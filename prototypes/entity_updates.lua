@@ -136,49 +136,48 @@ end
 local resistance = {
 	{
 		type = "fire",
-		decrease = 25,
-		percent = 100
+		decrease = 15,
+		percent = 50
 	},
 	{
 		type = "physical",
-		decrease = 40,
-		percent = 35
-	},
-	{
-		type = "impact",
-		decrease = 100,
-		percent = 65
-	},
-	{
-		type = "explosion",
-		decrease = 50,
-		percent = 60
-	},
-	{
-		type = "acid",
-		decrease = 20,
-		percent = 45
-	},
-	{
-		type = "laser",
-		decrease = 25,
+		decrease = 15,
 		percent = 30
 	},
 	{
+		type = "impact",
+		decrease = 50,
+		percent = 50
+	},
+	{
+		type = "explosion",
+		decrease = 15,
+		percent = 30
+	},
+	{
+		type = "acid",
+		decrease = 3,
+		percent = 20
+	},
+	{
+		type = "laser",
+		decrease = 10,
+		percent = 20
+	},
+	{
 		type = "electric",
-		decrease = 25,
-		percent = 25
+		decrease = 5,
+		percent = 20
 	}
 }
-local workingSoundAtom = table.deepcopy(data.raw["locomotive"]["locomotive"].working_sound)
-workingSoundAtom.main_sounds[2].sound.filename = modname.."/sound/nuclear_engine_smooth.ogg"
-workingSoundAtom.main_sounds[2].sound.volume = 0.5
+local workingSoundDiesel = data.raw["locomotive"]["locomotive"].working_sound
 
 local stats1 = {
-	future  = {resistances = resistance, max_speed = 1.85185, max_power = "5000kW", braking_force = 30, friction_force = 0.1, air_resistance = 0.01, energy_per_hit_point = 3, reversing_power_modifier = 1, working_sound = workingSoundAtom},
+	diesel = {resistances = resistance, max_speed = 0.8, max_power = "800kW", braking_force = 12,
+	friction_force = 0.0040, air_resistance = 0.006,  energy_per_hit_point = 6, reversing_power_modifier = 0.8, working_sound = workingSoundDiesel},
 }
 local stats2 = {
-	future  = {fuel_inventory_size = 1, effectivity = 0.1},
+	diesel = {fuel_inventory_size = 3, effectivity = 0.90},
 }
 
 local function adjustStats(name, stat)
@@ -195,5 +194,8 @@ local function adjustStats(name, stat)
 	end
 end
 
---adjustStats("yir_atom_header", "future")
---adjustStats("yir_atom_mitte", "future")
+adjustStats("yir_emdf7a_mn", "diesel")
+adjustStats("yir_emdf7b_mn", "diesel")
+adjustStats("yir_emdf7a_cr", "diesel")
+adjustStats("yir_emdf7b_cr", "diesel")
+adjustStats("yir_es44cr", "diesel")
