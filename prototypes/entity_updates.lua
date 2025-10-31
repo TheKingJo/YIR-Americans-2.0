@@ -173,8 +173,8 @@ local resistance = {
 local workingSoundDiesel = data.raw["locomotive"]["locomotive"].working_sound
 
 local stats1 = {
-	diesel = {resistances = resistance, max_speed = 0.8, max_power = "800kW", braking_force = 12,
-	friction_force = 0.0040, air_resistance = 0.006,  energy_per_hit_point = 6, reversing_power_modifier = 0.8, working_sound = workingSoundDiesel},
+	diesel = {resistances = resistance, max_speed = 0.9, max_power = "900kW", braking_force = 12,
+	friction_force = 0.0040, air_resistance = 0.005,  energy_per_hit_point = 6, reversing_power_modifier = 0.6, working_sound = workingSoundDiesel},
 }
 local stats2 = {
 	diesel = {fuel_inventory_size = 3, effectivity = 0.90},
