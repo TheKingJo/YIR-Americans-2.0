@@ -7,3 +7,5 @@ require ("prototypes.recipes")
 require ("prototypes.subgroup")
 require ("prototypes.locomotive")
 require ("prototypes.wagons")
+
+require ("prototypes.entity_updates")
