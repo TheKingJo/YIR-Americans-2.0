@@ -2,7 +2,7 @@
 {
 	"name": "z_yira_american",
 	"title": "YIR - Americans",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"date": "2025-04-14",
 	"author": "Yuoki Tani",
 	"contact": "https://discord.gg/fM6NjWabAA",
@@ -13,5 +13,5 @@
 		"yi_railway >= 1.2.1",
 		"? Yuoki >= 1.2.13"
 	],
-	"description": "adds some EMD-F7, and other American-Stylish-Stuff"
+	"description": "Adds some American-Stylish-Stuff."
 }
