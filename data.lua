@@ -7,3 +7,4 @@ require ("prototypes.locomotive")
 require ("prototypes.wagons")
 
 require ("prototypes.entity_updates")
+require ("prototypes.technology")
