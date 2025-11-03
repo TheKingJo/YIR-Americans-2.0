@@ -3,11 +3,11 @@ local item_sounds = require("__base__.prototypes.item_sounds")
 
 local entityData = {
 	locomotive = {
-		yir_emdf7a_mn = {filename = "emd_f7a_mn_sheet",	double = true, doublesided = false, size = {4096, 7232}, sizeSh = {4096, 7936}, shift = {0.42,-1.125}},
+		yir_emdf7a_mn = {filename = "emd_f7a_mn_sheet",	double = true, doublesided = false, size = {4096, 7232}, sizeSh = {4096, 7936}, shift = {0.20, -1.125}},
 		yir_emdf7b_mn = {filename = "emd_f7b_mn_sheet",	double = true, doublesided = false, size = {4096, 6592}, sizeSh = {4096, 7552}, shift = {0.42,-1.125}},
-		yir_emdf7a_cr = {filename = "emd_f7a_cr_sheet",	double = true, doublesided = false, size = {4096, 7232}, sizeSh = {4096, 7936}, shift = {0.42,-1.125}},
+		yir_emdf7a_cr = {filename = "emd_f7a_cr_sheet",	double = true, doublesided = false, size = {4096, 7232}, sizeSh = {4096, 7936}, shift = {0.20, -1.125}},
 		yir_emdf7b_cr = {filename = "emd_f7b_cr_sheet",	double = true, doublesided = false, size = {4096, 6592}, sizeSh = {4096, 7520}, shift = {0.42,-1.125}},
-		yir_es44cr    = {filename = "ES44AC_sheet",		double = true, doublesided = false, size = {4096, 7040}, sizeSh = {4096, 8192}, shift = {0.42,-1.125}},
+		yir_es44cr    = {filename = "ES44AC_sheet",		double = true, doublesided = false, size = {4096, 7040}, sizeSh = {4096, 8192}, shift = {0.4,-1.125}},
 	},
 	["cargo-wagon"] = {
 		yir_4a_container_cr = {filename = "4a_container_sheet", double = false, doublesided = true,	size = {4096, 3248}, sizeSh = {4096, 3632}, shift = {0.42,-1.125}},
