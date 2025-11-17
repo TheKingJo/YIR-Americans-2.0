@@ -1,5 +1,6 @@
 local modname = "__z_yira_american__"
 local item_sounds = require("__base__.prototypes.item_sounds")
+local balancingTypes = require("__yi_railway__.prototypes.z_balancing_types")
 
 local entityData = {
 	locomotive = {
@@ -133,52 +134,6 @@ for type, typeData in pairs(entityData) do
 		log(name.." changed")
 	end
 end
-local resistance = {
-	{
-		type = "fire",
-		decrease = 15,
-		percent = 50
-	},
-	{
-		type = "physical",
-		decrease = 15,
-		percent = 30
-	},
-	{
-		type = "impact",
-		decrease = 50,
-		percent = 50
-	},
-	{
-		type = "explosion",
-		decrease = 15,
-		percent = 30
-	},
-	{
-		type = "acid",
-		decrease = 3,
-		percent = 20
-	},
-	{
-		type = "laser",
-		decrease = 10,
-		percent = 20
-	},
-	{
-		type = "electric",
-		decrease = 5,
-		percent = 20
-	}
-}
-local workingSoundDiesel = data.raw["locomotive"]["locomotive"].working_sound
-
-local stats1 = {
-	diesel = {resistances = resistance, max_speed = 0.9, max_power = "900kW", braking_force = 12,
-	friction_force = 0.0040, air_resistance = 0.005,  energy_per_hit_point = 6, reversing_power_modifier = 0.6, working_sound = workingSoundDiesel},
-}
-local stats2 = {
-	diesel = {fuel_inventory_size = 3, effectivity = 0.90},
-}
 
 local function adjustStats(name, stat)
 	local lok = data.raw["locomotive"][name]
@@ -186,16 +141,16 @@ local function adjustStats(name, stat)
 	if not lok then
 		return
 	end
-	for k, v in pairs(stats1[stat]) do
+	for k, v in pairs(balancingTypes.stats1[stat]) do
 		lok[k] = v
 	end
-	for k, v in pairs(stats2[stat]) do
+	for k, v in pairs(balancingTypes.stats2[stat]) do
 		lok.energy_source[k] = v
 	end
 end
 
-adjustStats("yir_emdf7a_mn", "diesel")
-adjustStats("yir_emdf7b_mn", "diesel")
-adjustStats("yir_emdf7a_cr", "diesel")
-adjustStats("yir_emdf7b_cr", "diesel")
-adjustStats("yir_es44cr", "diesel")
+adjustStats("yir_emdf7a_mn", "diesel4")
+adjustStats("yir_emdf7b_mn", "diesel4")
+adjustStats("yir_emdf7a_cr", "diesel4")
+adjustStats("yir_emdf7b_cr", "diesel4")
+adjustStats("yir_es44cr",    "diesel4")
