@@ -84,7 +84,6 @@ data:extend({
 		open_sound = {filename = "__base__/sound/car-door-open.ogg", volume = 0.7},
 		close_sound = {filename = "__base__/sound/car-door-close.ogg", volume = 0.7},
 		crash_trigger = functions.crash_trigger,
-		wheels = functions.standard_train_wheels,
 		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
@@ -178,7 +177,6 @@ data:extend({
 		open_sound = {filename = "__base__/sound/car-door-open.ogg", volume = 0.7},
 		close_sound = {filename = "__base__/sound/car-door-close.ogg", volume = 0.7},
 		crash_trigger = functions.crash_trigger,
-		wheels = functions.standard_train_wheels,
 		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
@@ -264,7 +262,6 @@ data:extend({
 		open_sound = {filename = "__base__/sound/car-door-open.ogg", volume = 0.7},
 		close_sound = {filename = "__base__/sound/car-door-close.ogg", volume = 0.7},
 		crash_trigger = functions.crash_trigger,
-		wheels = functions.standard_train_wheels,
 		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
@@ -350,7 +347,6 @@ data:extend({
 		open_sound = {filename = "__base__/sound/car-door-open.ogg", volume = 0.7},
 		close_sound = {filename = "__base__/sound/car-door-close.ogg", volume = 0.7},
 		crash_trigger = functions.crash_trigger,
-		wheels = functions.standard_train_wheels,
 		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 	{
@@ -436,7 +432,6 @@ data:extend({
 		open_sound = {filename = "__base__/sound/car-door-open.ogg", volume = 0.7},
 		close_sound = {filename = "__base__/sound/car-door-close.ogg", volume = 0.7},
 		crash_trigger = functions.crash_trigger,
-		wheels = functions.standard_train_wheels,
 		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	}
 })

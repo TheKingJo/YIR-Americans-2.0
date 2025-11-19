@@ -6,7 +6,8 @@ data:extend({
 	{
 		type = "cargo-wagon",
 		name = "yir_4a_container_cr",
-		icon = "__z_yira_american__/graphics/icons/4a_container_icon.png", icon_size = 32,
+		icon = "__z_yira_american__/graphics/icons/4a_container_icon.png",
+		icon_size = 64,
 		flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
 		inventory_size = 30,
 		minable = {mining_time = 0.5, result = "yir_4a_container_cr"},
@@ -28,14 +29,14 @@ data:extend({
 		tie_distance = 50,
 		working_sound = sounds.train_wagon_wheels,
 		crash_trigger = functions.crash_trigger,
-		wheels = functions.standard_train_wheels,
 		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 
 	{
 		type = "cargo-wagon",
 		name = "yir_4a_clean_cr",
-		icon = "__z_yira_american__/graphics/icons/4a_cr_icon.png", icon_size = 32,
+		icon = "__z_yira_american__/graphics/icons/4a_cr_icon.png",
+		icon_size = 64,
 		flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
 		inventory_size = 30,
 		minable = {mining_time = 0.5, result = "yir_4a_clean_cr"},
@@ -57,14 +58,14 @@ data:extend({
 		tie_distance = 50,
 		working_sound = sounds.train_wagon_wheels,
 		crash_trigger = functions.crash_trigger,
-		wheels = functions.standard_train_wheels,
 		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 
 	{
 		type = "cargo-wagon",
 		name = "yir_wagon_caboose_cr",
-		icon = "__z_yira_american__/graphics/icons/2a_caboose_icon.png",icon_size = 32,
+		icon = "__z_yira_american__/graphics/icons/2a_caboose_icon.png",
+		icon_size = 64,
 		flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
 		inventory_size = 5,
 		minable = {mining_time = 0.5, result = "yir_wagon_caboose_cr"},
@@ -87,7 +88,6 @@ data:extend({
 		tie_distance = 50,
 		working_sound = sounds.train_wagon_wheels,
 		crash_trigger = functions.crash_trigger,
-		wheels = functions.standard_train_wheels,
 		drive_over_tie_trigger = functions.yir_drive_over_tie,
 	},
 })
