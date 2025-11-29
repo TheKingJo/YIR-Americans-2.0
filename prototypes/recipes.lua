@@ -1,16 +1,16 @@
 data:extend({
 	{
 		type = "recipe",
-		name = "yir_emdf7a_mn",
+		name = "yir_emdf7a_mn", --Diesel 4
 		category = "yir_rc_wsl",
 		enabled = false,
-		energy_required = 5,
+		energy_required = 10,
 		ingredients = {
-			{type = "item", name = "yir_frame_loco_diesel", amount = 1},
-			{type = "item", name = "yir_radsatz_locos", amount = 2},
-			{type = "item", name = "yir_diesel_coin", amount = 2},
-			{type = "item", name = "yir_color_red", amount = 2},
-			{type = "item", name = "yir_color_black", amount = 4},
+			{type = "item", name = "yir_frame_loco_diesel", amount = 3},
+			{type = "item", name = "yir_radsatz_waggon", amount = 2},
+			{type = "item", name = "yir_diesel_coin", amount = 7},
+			{type = "item", name = "yir_color_red", amount = 3},
+			{type = "item", name = "yir_color_black", amount = 5},
 		},
 		results = {
 			{type = "item", name = "yir_emdf7a_mn", amount = 1}
@@ -18,16 +18,16 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "yir_emdf7b_mn",
+		name = "yir_emdf7b_mn", --Diesel 4
 		category = "yir_rc_wsl",
 		enabled = false,
-		energy_required = 5,
+		energy_required = 10,
 		ingredients = {
-			{type = "item", name = "yir_frame_loco_diesel", amount = 1},
-			{type = "item", name = "yir_radsatz_locos", amount = 2},
-			{type = "item", name = "yir_diesel_coin", amount = 2},
-			{type = "item", name = "yir_color_red", amount = 2},
-			{type = "item", name = "yir_color_black", amount = 4},
+			{type = "item", name = "yir_frame_loco_diesel", amount = 3},
+			{type = "item", name = "yir_radsatz_waggon", amount = 2},
+			{type = "item", name = "yir_diesel_coin", amount = 7},
+			{type = "item", name = "yir_color_red", amount = 3},
+			{type = "item", name = "yir_color_black", amount = 5},
 		},
 		results = {
 			{type = "item", name = "yir_emdf7b_mn", amount = 1}
@@ -35,16 +35,16 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "yir_emdf7a_cr",
+		name = "yir_emdf7a_cr", --Diesel 4
 		category = "yir_rc_wsl",
 		enabled = false,
-		energy_required = 5,
+		energy_required = 10,
 		ingredients = {
-			{type = "item", name = "yir_frame_loco_diesel", amount = 1},
-			{type = "item", name = "yir_radsatz_locos", amount = 2},
-			{type = "item", name = "yir_diesel_coin", amount = 2},
+			{type = "item", name = "yir_frame_loco_diesel", amount = 3},
+			{type = "item", name = "yir_radsatz_waggon", amount = 2},
+			{type = "item", name = "yir_diesel_coin", amount = 7},
 			{type = "item", name = "yir_color_red", amount = 3},
-			{type = "item", name = "yir_color_white", amount = 7},
+			{type = "item", name = "yir_color_white", amount = 5},
 		},
 		results = {
 			{type = "item", name = "yir_emdf7a_cr", amount = 1}
@@ -52,15 +52,15 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "yir_emdf7b_cr",
+		name = "yir_emdf7b_cr", --Diesel 4
 		category = "yir_rc_wsl",
 		enabled = false,
-		energy_required = 5,
+		energy_required = 10,
 		ingredients = {
-			{type = "item", name = "yir_frame_loco_diesel", amount = 1},
-			{type = "item", name = "yir_radsatz_locos", amount = 2},
-			{type = "item", name = "yir_diesel_coin", amount = 2},
-			{type = "item", name = "yir_color_white", amount = 10},
+			{type = "item", name = "yir_frame_loco_diesel", amount = 3},
+			{type = "item", name = "yir_radsatz_waggon", amount = 2},
+			{type = "item", name = "yir_diesel_coin", amount = 7},
+			{type = "item", name = "yir_color_white", amount = 8},
 		},
 		results = {
 			{type = "item", name = "yir_emdf7b_cr", amount = 1}
@@ -68,15 +68,15 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "yir_es44cr",
+		name = "yir_es44cr", --Diesel 4
 		category = "yir_rc_wsl",
 		enabled = false,
-		energy_required = 5,
+		energy_required = 10,
 		ingredients = {
-			{type = "item", name = "yir_frame_loco_diesel", amount = 2},
-			{type = "item", name = "yir_radsatz_locos", amount = 2},
-			{type = "item", name = "yir_color_red", amount = 10},
-			{type = "item", name = "yir_diesel_coin", amount = 2},
+			{type = "item", name = "yir_frame_loco_diesel", amount = 3},
+			{type = "item", name = "yir_radsatz_locos", amount = 6},
+			{type = "item", name = "yir_color_red", amount = 8},
+			{type = "item", name = "yir_diesel_coin", amount = 7},
 		},
 		results = {
 			{type = "item", name = "yir_es44cr", amount = 1}
@@ -91,6 +91,7 @@ data:extend({
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
+			{type = "item", name = "steel-plate", amount = 16},
 			{type = "item", name = "yir_frame_waggon", amount = 2},
 			{type = "item", name = "yir_radsatz_waggon", amount = 2},
 			{type = "item", name = "yir_color_red", amount = 8},
@@ -107,6 +108,7 @@ data:extend({
 		enabled = false,
 		energy_required = 10,
 		ingredients = {
+			{type = "item", name = "steel-plate", amount = 16},
 			{type = "item", name = "yir_frame_waggon", amount = 2},
 			{type = "item", name = "yir_radsatz_waggon", amount = 2},
 			{type = "item", name = "yir_color_red", amount = 8},
@@ -123,6 +125,7 @@ data:extend({
 		enabled = false,
 		energy_required = 5,
 		ingredients = {
+			{type = "item", name = "iron-plate", amount = 12},
 			{type = "item", name = "yir_frame_waggon", amount = 1},
 			{type = "item", name = "yir_radsatz_waggon", amount = 2},
 			{type = "item", name = "yir_color_red", amount = 4},
